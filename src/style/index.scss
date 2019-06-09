@@ -1,0 +1,25 @@
+@import 'modules/variables';
+@import 'modules/mixins';
+@import 'modules/media-queries';
+@import 'partials/main';
+@import 'partials/sections-container';
+@import 'partials/main-section';
+@import 'partials/navbar';
+@import '../../node_modules/normalize.css/normalize.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-size: 10px;
+  color: $dark;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

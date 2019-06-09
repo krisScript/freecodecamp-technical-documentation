@@ -1,0 +1,21 @@
+#navbar {
+  padding: 1rem;
+  header {
+    font-size: 1.2rem;
+  }
+  ul {
+    width: 100%;
+    @include center;
+    list-style: none;
+    li {
+      width: 100%;
+      padding: 0.5rem;
+      border-bottom: 1px solid $dark;
+      a {
+        text-decoration: none;
+        color: $dark;
+        font-size: 1rem;
+      }
+    }
+  }
+}

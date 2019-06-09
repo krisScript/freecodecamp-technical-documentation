@@ -1,0 +1,14 @@
+#main-doc {
+  display: grid;
+  @include center;
+  grid-template-columns: 1fr;
+  @include desktop {
+    grid: 'nav sections'/1fr 6fr;
+    #navbar {
+      grid-area: nav;
+    }
+    .sections-container {
+      grid-area: sections;
+    }
+  }
+}
