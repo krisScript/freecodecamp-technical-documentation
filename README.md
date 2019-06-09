@@ -1,8 +1,7 @@
-# Gym Landing Page
+# Freecodecamp technical documentation
 
 
 
-Logo provided by [Acme Logos](http://acmelogos.com/)
 
 ## Getting Started
 
@@ -12,9 +11,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need parcel.js installed on your local machine.
 
-### Linters
-
-Prettier with Eslint Integration.
 
 #### Yarn
 
